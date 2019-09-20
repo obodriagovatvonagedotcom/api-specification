@@ -55,7 +55,7 @@ paths:
                         }
                       ]
                   items:
-                    type: string
+                    type: object
                 answer_url:
                   description: |
                     **Required** unless `ncco` is provided.
