@@ -419,7 +419,7 @@ components:
       default: false
     callback_url:
       type: string
-      description: URL to send a callback upon completion of the report.
+      description: URL to send a callback upon completion of the report. This POST callback contains the same information as the response to the [Get status of report](https://developer.nexmo.com/api/reports#get-report).
       format: uri
       example: "https://requestb.in/12345"
     date_start:
